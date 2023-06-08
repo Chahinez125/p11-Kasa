@@ -1,0 +1,17 @@
+.logo {
+
+  img {
+    height: 50px;
+
+    @media screen and (max-width: 650px){
+     height: 30px;  
+  }
+  }
+
+
+
+
+  h3 {
+    margin-left: 10px;
+  }
+}
