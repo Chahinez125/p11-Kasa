@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import datas from "../../data/data.json";
 import Header from "../../components/Header/Header";
@@ -13,7 +12,7 @@ export default function Accomodation() {
   const dataCurrentAccomodation = datas.filter(
     (data) => data.id === idAccomodation
   );
-if(dataCurrentAccomodation.length == 0)
+if(dataCurrentAccomodation.length === 0)
 {
   return (
     <Error />
@@ -55,7 +54,7 @@ if(dataCurrentAccomodation.length == 0)
               <img
                 className="hostPicture"
                 src={pictureHost}
-                alt="host picture"
+                alt="pictur"
               />
             </div>
             <div className="accomodation_infos_host_rating">

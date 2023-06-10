@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from "react";
 import Header from "../../components/Header/Header";
 import Banner from "../../components/Banner/banner";
 import Footer from "../../components/Footer/Footer";
